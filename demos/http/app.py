@@ -122,7 +122,7 @@ body: Don't forget the party!
         # response.mimetype = "application/json"
     else:
         abort(400)
-    return response
+    return response  # type: ignore
 
 
 # set cookie
